@@ -29,7 +29,3 @@ class Mover:
 
     def show(self, screen):
         pygame.draw.circle(screen, (60, 180, 224), (int(self.pos.x), int(self.pos.y)), self.r)
-        # self.draw_hitbox(screen)
-
-    # def draw_hitbox(self, surface):
-    #     pygame.draw.rect(surface, (200, 60, 120), self.rect)
